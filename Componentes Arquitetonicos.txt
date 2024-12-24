@@ -1,0 +1,89 @@
+Descrever os Principais Componentes Arquitetônicos do Azure
+Datacenters, Regiões e Zonas de Disponibilidade no Azure
+
+
+
+Datacenters:
+
+Datacenters são instalações físicas onde os recursos de computação, armazenamento e rede são alojados.
+
+No Azure, os datacenters são distribuídos globalmente para proporcionar maior redundância, disponibilidade e desempenho aos serviços.
+
+Regiões:
+
+Uma região do Azure é uma área geográfica que contém uma ou mais zonas de disponibilidade.
+
+Cada região é composta por um ou mais datacenters que estão fisicamente separados por uma distância significativa para minimizar o impacto de falhas naturais ou humanas.
+
+Zonas de Disponibilidade:
+
+Zonas de Disponibilidade são locais dentro de uma região do Azure com energia, rede e resfriamento independentes.
+
+Elas oferecem alta disponibilidade ao distribuir cargas de trabalho entre várias zonas para resistir a falhas de hardware, atualizações planejadas e outros eventos imprevistos.
+
+
+
+Pares de Regiões e Regiões Soberanas no Azure
+
+
+
+Pares de Regiões:
+
+Pares de Regiões no Azure referem-se a grupos de regiões geograficamente separadas que são emparelhadas para fornecer resiliência e recuperação de desastres.
+
+Cada par consiste em uma "região primária" e uma "região secundária", onde os serviços e dados podem ser replicados para garantir a continuidade dos negócios em caso de interrupções.
+
+As regiões de um par são mantidas a uma distância considerável uma da outra, reduzindo o risco de falhas simultâneas.
+
+
+
+Regiões Soberanas:
+
+Regiões soberanas do Azure são instâncias isoladas da plataforma Azure projetadas para atender às necessidades de soberania de dados e conformidade regulatória de um país ou região específica.
+
+Elas garantem que os dados e os serviços permaneçam dentro das fronteiras do país e estejam sujeitos às regulamentações locais de proteção de dados e privacidade.
+
+Essas regiões podem hospedar serviços específicos para cada país ou região, permitindo que organizações atendam às exigências de conformidade e regulamentação.
+
+
+
+Grupos de Recursos no Azure
+
+
+
+Grupos de Recursos são contêineres lógicos que ajudam a gerenciar e organizar os recursos relacionados implantados no Azure.
+
+Eles permitem que você gerencie, monitore, implante e gerencie recursos como uma unidade coesa.
+
+Recursos como máquinas virtuais, redes, bancos de dados e aplicativos podem ser agrupados em um mesmo Grupos de Recursos.
+
+Isso facilita o gerenciamento, a organização e a aplicação de configurações e políticas de segurança em conjunto.
+
+Assinaturas (Subscriptions) no Azure
+
+
+
+Uma Assinatura é um contêiner de serviços e recursos do Azure que são cobrados e faturados juntos.
+
+Ela serve como uma instância de cobrança, permitindo que você use os serviços e recursos da nuvem.
+
+Uma Assinatura pode abranger uma organização inteira, um departamento ou um projeto específico.
+
+Cada Assinatura possui um modelo de faturamento associado, que determina como os recursos utilizados são cobrados.
+
+Vários recursos e serviços podem ser provisionados e gerenciados dentro de uma única Assinatura.
+
+
+
+Grupos de Gerenciamento (Management Groups)
+
+
+
+Os Grupos de Gerenciamento são uma estrutura hierárquica que permite gerenciar e aplicar políticas de gerenciamento em larga escala em várias Assinaturas do Azure.
+
+Eles são utilizados para organizar Assinaturas em uma hierarquia, permitindo que políticas e atribuições de acesso sejam aplicadas em diferentes níveis.
+
+Os Grupos de Gerenciamento permitem estabelecer diretrizes e conformidade em várias Assinaturas ao mesmo tempo.
+
+Eles são particularmente úteis para empresas com várias equipes ou unidades de negócios que desejam manter um certo nível de consistência e governança em suas operações no Azure.
+
