@@ -1,0 +1,61 @@
+Descrever os Recursos e as Ferramentas de Governança
+Azure Lock
+
+
+O Azure Lock é uma funcionalidade que permite proteger recursos do Azure contra exclusões ou modificações acidentais ou não autorizadas.
+
+Ele oferece uma camada adicional de segurança e governança, evitando que recursos críticos sejam alterados ou removidos sem a devida autorização.
+
+O Azure Lock pode ser aplicado a diferentes níveis, como grupos de recursos, máquinas virtuais, bancos de dados, entre outros.
+
+Os bloqueios podem ser aplicados usando o portal do Azure, a CLI (Interface de Linha de Comando do Azure) ou modelos do Azure Resource Manager (ARM).
+
+É importante observar que, embora o Azure Lock forneça uma camada adicional de proteção, ele não substitui as práticas adequadas de gerenciamento de acesso e segurança.
+
+O controle de acesso, autenticação e autorização adequados também devem ser implementados para garantir a segurança completa dos recursos.
+
+Em resumo, o Azure Lock é uma ferramenta que ajuda a evitar modificações ou exclusões acidentais ou não autorizadas em recursos do Azure, proporcionando maior controle sobre a governança e a segurança dos ativos na nuvem.
+
+
+
+Azure Policy
+
+
+O Azure Policy é um serviço de governança e conformidade que permite definir e aplicar regras para recursos no Azure.
+
+Ele ajuda a garantir que os recursos implantados estejam em conformidade com as políticas organizacionais, regulamentações e melhores práticas definidas.
+
+O Azure Policy permite impor padrões consistentes em toda a infraestrutura, promovendo a segurança, a conformidade e a eficiência operacional.
+
+Em resumo, o Azure Policy é uma ferramenta fundamental para garantir a governança e a conformidade em ambientes do Azure, permitindo a definição, a aplicação e o monitoramento de políticas que regem o uso adequado dos recursos na nuvem.
+
+
+
+Microsoft Purview
+
+
+O Microsoft Purview é uma solução de governança de dados da Microsoft projetada para ajudar as organizações a descobrir, classificar e gerenciar seus ativos de dados de forma eficaz e em conformidade.
+
+Ele permite que as empresas compreendam a localização, o contexto e o uso de seus dados, facilitando a tomada de decisões informadas, a garantia de conformidade regulatória e a proteção dos dados sensíveis.
+
+Em resumo, o Microsoft Purview é uma plataforma de governança de dados que fornece às organizações as ferramentas necessárias para gerenciar seus ativos de dados de forma eficaz, garantindo conformidade, segurança e eficiência em um ambiente cada vez mais complexo de dados.
+
+
+
+Azure Blueprints
+
+
+O Azure Blueprints é um serviço da Microsoft projetado para ajudar as organizações a implementar, padronizar e gerenciar consistentemente ambientes de nuvem em conformidade com as melhores práticas, políticas e requisitos específicos da empresa.
+
+Ele permite a criação de modelos predefinidos e repetíveis, chamados de "Blueprints", que incorporam recursos, políticas, definições de segurança e configurações específicas para serem implantados de maneira consistente em várias assinaturas do Azure.
+
+Em resumo, o Azure Blueprints é uma ferramenta poderosa para a padronização, governança e automação de implantações de recursos no Azure, permitindo que as organizações implantem ambientes em conformidade com as melhores práticas e políticas internas de maneira consistente e eficiente.
+
+
+
+Portal de Confiança de Serviço (Service Trust Portal)
+O Portal de Confiança de Serviço (Service Trust Portal) é uma plataforma online fornecida pela Microsoft para oferecer transparência e informações detalhadas sobre as práticas de segurança, privacidade e conformidade dos serviços em nuvem da Microsoft, incluindo o Microsoft Azure e o Microsoft 365.
+
+Esse portal é projetado para auxiliar os clientes a entenderem e avaliarem a postura de segurança e conformidade da Microsoft em relação aos dados e serviços hospedados na nuvem.
+
+Em resumo, o Portal de Confiança de Serviço é uma ferramenta importante para que os clientes avaliem e compreendam as práticas de segurança, privacidade e conformidade dos serviços em nuvem da Microsoft, permitindo-lhes tomar decisões informadas sobre a utilização desses serviços para suas necessidades empresariais.

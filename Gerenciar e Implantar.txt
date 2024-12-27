@@ -1,0 +1,141 @@
+Recursos e Ferramentas para Gerenciar e Implantar
+Portal do Azure
+
+
+O Portal do Azure é uma interface baseada na web e uma plataforma de gerenciamento unificado fornecida pela Microsoft para gerenciar recursos e serviços implantados na nuvem do Microsoft Azure.
+
+Ele oferece uma experiência de usuário intuitiva e centralizada para provisionar, monitorar e gerenciar uma variedade de recursos em diferentes serviços do Azure.
+
+O Portal do Azure é uma interface fundamental para profissionais de TI, desenvolvedores e administradores que desejam gerenciar e monitorar eficientemente seus recursos e serviços na nuvem do Azure.
+
+Sua interface amigável e recursos poderosos contribuem para uma experiência de gerenciamento mais produtiva e eficaz.
+
+
+
+Infraestrutura como Código (IaC)
+
+
+Infraestrutura como Código (IaC) é uma abordagem para gerenciar e provisionar recursos de infraestrutura de TI de maneira automatizada e consistente usando código.
+
+Em vez de configurar manualmente cada recurso, servidor, rede ou serviço, os profissionais de TI definem a infraestrutura necessária por meio de scripts ou arquivos de configuração.
+
+Esses scripts são versionados, tratados como código-fonte e podem ser controlados por ferramentas de controle de versão, como o Git.
+
+A abordagem de Infraestrutura como Código é fundamental para a automação e a agilidade das operações de TI, permitindo que as equipes provisionem, gerenciem e dimensionem recursos de maneira eficiente e confiável, reduzindo os desafios associados à configuração manual e à complexidade da infraestrutura tradicional.
+
+
+
+Azure CLI (Interface de Linha de Comando do Azure)
+
+
+Azure CLI (Interface de Linha de Comando do Azure) é uma ferramenta de linha de comando que permite gerenciar serviços e recursos na plataforma Azure por meio de comandos.
+
+Com a Azure CLI, os usuários podem automatizar tarefas, criar scripts e interagir com a plataforma Azure sem a necessidade de utilizar a interface gráfica do portal.
+
+A Azure CLI é uma poderosa ferramenta para administradores e desenvolvedores que desejam gerenciar recursos do Azure de maneira eficiente e automatizada por meio de comandos de linha.
+
+
+
+Exemplo de uso da Azure CLI para criar uma máquina virtual:
+
+az vm create --resource-group MyResourceGroup --name MyVM --image UbuntuLTS --admin-username azureuser --generate-ssh-keys
+
+
+
+Azure Cloud Shell
+
+
+O Azure Cloud Shell é um ambiente de linha de comando interativo baseado na nuvem que fornece acesso aos recursos da Azure CLI e do PowerShell a partir do navegador da web.
+
+Ele é integrado ao portal do Azure, permitindo que os usuários executem comandos e gerenciem recursos do Azure diretamente do navegador, sem a necessidade de instalar ou configurar ferramentas de linha de comando em suas máquinas locais.
+
+Para acessar o Azure Cloud Shell, basta clicar no ícone correspondente no canto superior direito do portal do Azure. Isso abrirá um terminal interativo no navegador, pronto para executar comandos e gerenciar recursos do Azure.
+
+
+
+Azure Powershell
+
+
+O Azure PowerShell é uma extensão da plataforma de automação do PowerShell que permite aos usuários provisionar, gerenciar e automatizar recursos e serviços no Azure por meio de comandos de linha de comando.
+
+Com o Azure PowerShell, os administradores podem interagir com o ambiente de nuvem do Azure, executar tarefas repetitivas e complexas e criar scripts para automatizar fluxos de trabalho de gerenciamento.
+
+O Azure PowerShell é uma ferramenta essencial para administradores e desenvolvedores que desejam criar, gerenciar e automatizar recursos no ambiente de nuvem do Azure.
+
+Com uma ampla variedade de cmdlets e recursos integrados, ele oferece flexibilidade e eficiência no gerenciamento de recursos em nuvem.
+
+
+
+Comando do Azure PowerShell: Criando uma Máquina Virtual no Azure.
+
+
+
+New-AzVM -ResourceGroupName "MyResourceGroup" -Name "MyVM" -Location "East US" -VirtualNetworkName "MyVnet" -SubnetName "MySubnet" -SecurityGroupName "MyNSG" -PublicIpAddressName "MyPublicIP" -OpenPorts 3389
+Explicação:
+
+New-AzVM: Este é o cmdlet que inicia o processo de criação de uma nova máquina virtual (VM) no Azure.
+
+-ResourceGroupName "MyResourceGroup": Especifica o nome do Grupo de Recursos onde a VM será criada.
+
+-Name "MyVM": Define o nome da Máquina Virtual.
+
+-Location "East US": Define a região onde a VM será implantada.
+
+-VirtualNetworkName "MyVnet": Especifica o nome da Rede Virtual à qual a VM será conectada.
+
+-SubnetName "MySubnet": Define o nome da sub-rede dentro da Rede Virtual.
+
+-SecurityGroupName "MyNSG": Especifica o nome do Grupo de Segurança de Rede (NSG) a ser associado à VM.
+
+-PublicIpAddressName "MyPublicIP": Define o nome do endereço IP público associado à VM.
+
+-OpenPorts 3389: Abre a porta 3389 (RDP) para permitir conexões de área de trabalho remota à VM.
+
+Explicação Detalhada:
+
+Neste exemplo, o comando New-AzVM é usado para criar uma nova Máquina Virtual no Azure. Os parâmetros fornecidos especificam detalhes importantes sobre a VM, como o nome, a localização, a rede virtual e as configurações de segurança.
+
+A VM será criada no Grupo de Recursos chamado "MyResourceGroup", na região "East US". Ela será conectada à Rede Virtual chamada "MyVnet" e à sub-rede "MySubnet". O Grupo de Segurança de Rede "MyNSG" será associado à VM para controlar o tráfego de rede permitido. Um endereço IP público chamado "MyPublicIP" será atribuído à VM para permitir conexões de área de trabalho remota (RDP).
+
+O parâmetro -OpenPorts 3389 abre a porta 3389 para permitir o acesso RDP. Isso é útil para administrar a VM remotamente.
+
+Esse exemplo demonstra como usar o Azure PowerShell para criar uma Máquina Virtual no Azure, especificando várias configurações importantes. Ao executar esse comando, uma nova VM será provisionada de acordo com as especificações fornecidas.
+
+
+
+Azure Resource Manager (ARM)
+
+
+O Azure Resource Manager (ARM) é o serviço de gerenciamento de recursos do Azure que permite criar, gerenciar e organizar recursos em uma assinatura do Azure.
+
+Ele fornece uma abordagem consistente e unificada para implantação, gerenciamento e organização de recursos em nuvem.
+
+O ARM oferece um modelo de gerenciamento declarativo, onde os recursos são definidos por meio de modelos JSON (JavaScript Object Notation), permitindo que você especifique a configuração e os relacionamentos dos recursos em um único arquivo.
+
+O Azure Resource Manager é a base para a automação, gerenciamento e organização de recursos no Azure.
+
+Ele oferece uma abordagem consistente e eficiente para criar e operar ambientes em nuvem, ajudando as organizações a aproveitar ao máximo os recursos e a manter a conformidade com as melhores práticas de segurança e governança.
+
+
+
+Azure Resource Manager Template
+
+
+O Azure Resource Manager Template (Modelo do Gerenciador de Recursos do Azure) é uma abordagem baseada em código para provisionar e gerenciar recursos do Azure de maneira consistente e repetível.
+
+É uma parte fundamental da Infraestrutura como Código (IaC) no Azure, permitindo que você defina toda a infraestrutura e configuração necessárias em um único arquivo JSON.
+
+Os modelos do Azure Resource Manager Template são uma abordagem poderosa para definir e implantar a infraestrutura no Azure de maneira previsível, controlada e eficiente.
+
+
+
+Azure Arc
+
+
+O Azure Arc é uma solução da Microsoft que estende a administração e os serviços do Azure para ambientes fora da nuvem Azure, permitindo que você gerencie, proteja e entregue serviços consistentes em diferentes locais, como datacenters locais, infraestruturas multicloud e borda de rede.
+
+Ele unifica o gerenciamento de recursos e aplicativos, independentemente de onde estejam hospedados, oferecendo uma abordagem híbrida e escalável para a computação em nuvem.
+
+O Azure Arc é uma resposta da Microsoft à crescente demanda por gerenciamento unificado e consistente em ambientes híbridos e multicloud.
+
+Com ele, as organizações podem aproveitar os recursos, serviços e práticas familiares do Azure em uma variedade de ambientes, melhorando a eficiência operacional e a agilidade na entrega de aplicativos e serviços.

@@ -1,0 +1,63 @@
+Descrever as Ferramentas de Monitoramento do Azure
+Azure Monitor
+
+
+O Azure Monitor é um serviço de gerenciamento e monitoramento abrangente da plataforma Azure, projetado para ajudar os administradores a monitorar a integridade e o desempenho de seus recursos em nuvem.
+
+Ele fornece uma solução centralizada para coletar, analisar e agir sobre dados de monitoramento, permitindo que as equipes de TI monitorem a saúde operacional, identifiquem problemas e tomem medidas corretivas de maneira eficiente.
+
+O Azure Monitor é essencial para garantir que os aplicativos e recursos implantados no Azure funcionem de maneira eficiente e estejam disponíveis de forma consistente, permitindo que as equipes de operações e desenvolvimento tomem decisões informadas e ajam rapidamente para resolver problemas e otimizar o desempenho.
+
+
+
+Azure Application Insights
+
+
+Azure Application Insights é um serviço de monitoramento e diagnóstico de aplicativos que faz parte do ecossistema do Azure.
+
+Ele foi projetado para ajudar os desenvolvedores a obterem insights detalhados sobre o desempenho e a disponibilidade de seus aplicativos em execução na nuvem e em ambientes locais.
+
+Com o Application Insights, os desenvolvedores podem identificar problemas, otimizar o desempenho e melhorar a experiência do usuário.
+
+O Azure Application Insights é uma ferramenta valiosa para garantir a qualidade, o desempenho e a confiabilidade dos aplicativos, permitindo que os desenvolvedores identifiquem problemas em tempo real, tomem medidas corretivas e aprimorem continuamente a experiência do usuário.
+
+
+
+Azure Log Analytics
+
+
+Azure Log Analytics é um serviço de gerenciamento e monitoramento de dados de log e eventos que faz parte da plataforma Azure.
+
+Ele permite coletar, armazenar e analisar dados de logs gerados por várias fontes, como aplicativos, sistemas operacionais, serviços e recursos do Azure.
+
+Com o Azure Log Analytics, as equipes de operações e desenvolvimento podem obter insights valiosos sobre o desempenho, a disponibilidade e o estado de seus ambientes de TI.
+
+O Azure Log Analytics é uma ferramenta essencial para o monitoramento proativo, a solução de problemas e a otimização de ambientes de TI, proporcionando às equipes insights detalhados para tomar decisões informadas e melhorar a eficiência operacional.
+
+
+
+Azure Advisor
+
+
+Azure Advisor é um serviço de consultoria baseado em nuvem da Microsoft Azure projetado para oferecer recomendações personalizadas para otimizar seus recursos e aplicativos na nuvem.
+
+Ele fornece orientações para melhorar a segurança, o desempenho, a confiabilidade e a eficiência dos recursos implantados no Azure, ajudando as equipes a tomar decisões informadas e aprimorar suas implantações.
+
+O Azure Advisor é uma ferramenta valiosa para equipes de TI e desenvolvimento que desejam otimizar seus recursos na nuvem, melhorar a eficiência operacional e maximizar o valor dos serviços do Azure.
+
+Suas recomendações direcionadas permitem que as organizações tomem ações específicas para aprimorar o desempenho, a segurança e a economia em suas implantações na nuvem.
+
+
+
+Azure Service Health
+
+
+Azure Service Health é um serviço da Microsoft Azure que fornece informações em tempo real sobre o status dos serviços e regiões do Azure.
+
+Ele oferece visibilidade sobre possíveis interrupções, problemas de serviço ou atualizações planejadas que possam afetar a disponibilidade de recursos na nuvem.
+
+O Azure Service Health permite que os usuários monitorem a integridade dos serviços e tomem medidas proativas para mitigar impactos em suas implantações.
+
+O Azure Service Health é uma ferramenta fundamental para equipes de TI e desenvolvimento que desejam estar cientes de possíveis problemas que possam afetar suas implantações na nuvem.
+
+Ele ajuda a reduzir o tempo de resposta a interrupções e a tomar medidas proativas para garantir a disponibilidade contínua de recursos na nuvem do Azure.

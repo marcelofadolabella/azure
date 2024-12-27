@@ -1,0 +1,258 @@
+Descrever os Serviços de Computação e Rede do Azure
+Recursos de Computação no Azure
+
+
+
+Máquinas Virtuais (VMs) no Azure
+
+
+
+As Máquinas Virtuais (VMs) são recursos de computação na nuvem que oferecem a capacidade de criar e executar instâncias virtuais de sistemas operacionais, como Windows ou Linux, dentro da infraestrutura do Azure.
+
+As VMs permitem que os usuários implantem e gerenciem aplicativos, servidores e serviços em um ambiente de nuvem flexível e escalável.
+
+
+
+Detalhes Adicionais sobre Máquinas Virtuais no Azure
+
+
+
+Flexibilidade e Escalabilidade:
+
+As VMs no Azure oferecem uma ampla variedade de tamanhos e configurações, permitindo que você escolha recursos adequados às necessidades de seus aplicativos.
+
+Você pode redimensionar as VMs verticalmente, aumentando ou diminuindo os recursos de CPU, memória e armazenamento conforme necessário.
+
+Modelos Pré-Configurados:
+
+O Azure fornece imagens de VM pré-configuradas que contêm sistemas operacionais e software comumente usados.
+
+Essas imagens facilitam a implantação rápida de ambientes de trabalho, aplicativos da web, bancos de dados e muito mais.
+
+Opções de Armazenamento:
+
+As VMs podem ser configuradas com diferentes tipos de armazenamento, incluindo discos Premium SSD, Standard HDD e Standard SSD, para atender às demandas de desempenho e custo.
+
+Alta Disponibilidade:
+
+Os Conjuntos de Dimensionamento de Máquinas Virtuais (VMSS) permitem criar grupos de VMs idênticas que são distribuídas em várias zonas de disponibilidade para garantir alta disponibilidade e escalabilidade.
+
+Backup e Recuperação:
+
+As VMs podem ser protegidas por políticas de backup para garantir a recuperação de dados em caso de falha.
+
+Gerenciamento de Rede:
+
+As VMs podem ser conectadas a Redes Virtuais para controle granular sobre a rede, incluindo sub-redes, grupos de segurança de rede e regras de firewall.
+
+Segurança e Conformidade:
+
+A autenticação multifator (MFA) e outras opções de autenticação garantem a segurança do acesso às VMs.
+
+O Azure Policy e o Controle de Acesso Baseado em Funções (RBAC) ajudam a aplicar práticas de segurança e conformidade.
+
+
+
+Endereço IP Público e IP Privado no Azure
+
+
+
+O Azure permite que as máquinas virtuais (VMs) tenham tanto um endereço IP público quanto um endereço IP privado.
+
+Os endereços IP públicos são usados para acesso à Internet e permitem que recursos, como VMs, sejam acessados globalmente.
+
+Os endereços IP privados são usados para comunicação dentro de uma rede virtual do Azure e não são acessíveis diretamente pela Internet.
+
+
+
+Azure Bastion
+
+
+
+O Azure Bastion é uma solução eficaz para aprimorar a segurança e a simplicidade do acesso remoto às máquinas virtuais no Azure.
+
+Ele reduz a exposição a ameaças de segurança, simplifica o processo de acesso e oferece uma alternativa mais segura às abordagens tradicionais de acesso remoto.
+
+Tradicionalmente, a administração de VMs envolvia a abertura de portas públicas e o uso de protocolos como RDP (Remote Desktop Protocol) ou SSH (Secure Shell) para acessar as VMs remotamente. No entanto, isso pode aumentar significativamente a superfície de ataque e a exposição a ameaças de segurança.
+
+
+
+Azure VM Scale Set
+
+
+
+O Conjunto de Dimensionamento de Máquinas Virtuais do Azure, também conhecido como VM Scale Set, é um serviço altamente escalonável e gerenciável que permite implantar e gerenciar automaticamente um conjunto de máquinas virtuais idênticas.
+
+Esse recurso é especialmente projetado para lidar com cargas de trabalho que requerem escalabilidade dinâmica e flexível, como aplicações da web, serviços em nuvem e aplicativos que demandam variações na capacidade de processamento. 
+
+Ele oferece uma abordagem automatizada e flexível para dimensionar e gerenciar grupos de máquinas virtuais, garantindo um desempenho otimizado e alta disponibilidade para suas aplicações e serviços.
+
+
+
+Conjunto de Disponibilidade
+
+
+
+O Availability Set (Conjunto de Disponibilidade) é um recurso fundamental no Azure projetado para proteger aplicativos contra interrupções e falhas, garantindo alta disponibilidade e resiliência.
+
+Ele ajuda a proteger os aplicativos contra interrupções e falhas, distribuindo as máquinas virtuais em diferentes domínios de falha e atualização.
+
+
+
+Azure Virtual Desktop
+
+
+
+Azure Virtual Desktop é um serviço de desktop virtualizado oferecido pela Microsoft Azure. Ele permite que organizações provisionem e gerenciem ambientes de desktop completos na nuvem, proporcionando aos usuários uma experiência de computação remota.
+
+É uma solução relevante para empresas que buscam oferecer ambientes de trabalho mais flexíveis, gerenciamento centralizado e acessíveis aos seus usuários.
+
+
+
+Azure App Service
+
+
+
+O Azure App Service é um serviço de plataforma como serviço (PaaS) oferecido pela Microsoft Azure, projetado para hospedar e gerenciar aplicativos da web.
+
+Ela é uma plataforma poderosa para hospedar e gerenciar aplicativos da web de maneira eficaz, eliminando a complexidade da infraestrutura e permitindo que os desenvolvedores se concentrem na criação de código de alta qualidade.
+
+
+
+Azure App Service Plan
+
+
+
+O Azure App Service Plan, também conhecido como Plano de Serviço de Aplicativo do Azure, é um componente fundamental do Azure App Service que permite aos usuários gerenciar, dimensionar e alocar recursos para os aplicativos hospedados na plataforma.
+
+A escolha do plano adequado é fundamental para garantir o desempenho, a escalabilidade e a eficiência financeira de seus aplicativos na nuvem.
+
+Azure Container Instances
+
+
+
+Azure Container Instances (ACI) é um serviço de contêineres no Azure que permite a execução rápida e fácil de aplicativos em contêineres, sem a necessidade de gerenciar a infraestrutura subjacente.
+
+Como um serviço gerenciado, o ACI cuida da infraestrutura subjacente, como patches e atualizações de sistemas operacionais, permitindo que você se concentre nos aplicativos.
+
+
+
+Azure Kubernetes Service
+
+
+
+O Azure Kubernetes Service (AKS) é um serviço gerenciado no Azure que facilita a implantação, gerenciamento e orquestração de contêineres usando o Kubernetes.
+
+Ele facilita a escalabilidade horizontal dos aplicativos, aumentando ou diminuindo automaticamente o número de réplicas de contêineres de acordo com a demanda. Isso garante alta disponibilidade e resiliência.
+
+Com ele, você pode implantar aplicativos em contêineres rapidamente, sem a complexidade de configurar e gerenciar a infraestrutura subjacente. O AKS cuida da administração do cluster Kubernetes.
+
+
+
+Azure Functions
+
+
+
+O Azure Functions é um serviço de computação serverless oferecido pelo Azure, permitindo que você execute código sem se preocupar com a infraestrutura subjacente.
+
+As Azure Functions Apps são projetadas para integrar-se facilmente com outros serviços do Azure, permitindo que você crie fluxos de trabalho complexos e interconecte seus aplicativos.
+
+Ele suporta várias linguagens de programação, incluindo C#, Python, JavaScript, PowerShell e muito mais. Isso oferece flexibilidade para escolher a linguagem que melhor se adapte ao seu aplicativo.
+
+Azure Virtual Network e Subnets
+
+
+
+O Azure Virtual Network é um serviço que permite criar redes isoladas na nuvem do Azure, proporcionando controle total sobre o ambiente de rede, como endereçamento IP, tabelas de roteamento, gateways e conectividade com redes locais ou outras redes virtuais.
+
+Azure Virtual Network é um serviço que possibilita a criação de redes isoladas na nuvem do Azure, e as Subnets permitem segmentar ainda mais essa rede em segmentos menores.
+
+
+
+Virtual Network Peering
+
+
+
+VNet Peering, ou Emparelhamento de Redes Virtuais, é um recurso no Azure que permite conectar redes virtuais (VNets) em uma mesma região ou entre regiões diferentes.
+
+Com o VNet Peering, é possível estabelecer uma comunicação segura e de baixa latência entre máquinas virtuais, serviços e recursos hospedados em diferentes VNets.
+
+Azure DNS
+
+
+
+O Azure DNS é um serviço de gerenciamento de domínios personalizados fornecido pelo Azure.
+
+Ele permite que os usuários registrem, hospedem e gerenciem seus próprios nomes de domínio de forma eficiente na nuvem do Azure.
+
+
+
+Azure Service Endpoint
+
+
+
+O Azure Service Endpoint é uma funcionalidade que permite proteger o acesso à rede para serviços de Plataforma como Serviço (PaaS) hospedados no Azure.
+
+Ele oferece uma maneira segura de conectar recursos dentro de uma Rede Virtual do Azure diretamente aos serviços PaaS, evitando que o tráfego de rede atravesse a Internet pública.
+
+Globalmente, o Azure Service Endpoint é uma ferramenta poderosa para melhorar a segurança e o desempenho ao acessar serviços PaaS no Azure, proporcionando uma conexão direta e protegida entre recursos na rede virtual e os serviços hospedados na plataforma Azure.
+
+
+
+Azure Virtual Network Gateway
+
+
+
+O Azure Virtual Network Gateway (Gateway de Rede Virtual) é um serviço do Microsoft Azure que oferece conectividade segura e confiável entre redes virtuais do Azure, redes locais e redes on-premises.
+
+Essencialmente, o Azure VNET Gateway é utilizado para estabelecer comunicações seguras por meio de VPN (Virtual Private Network) e conexões ExpressRoute. 
+
+Ele oferece várias opções de configuração e protocolos de segurança para garantir que as comunicações sejam protegidas e confiáveis, permitindo que organizações aproveitem os benefícios da nuvem enquanto mantêm a integração com suas infraestruturas existentes.
+
+
+
+VPN Point-to-Site (P2S) no Azure
+
+
+
+VPN Point-to-Site (P2S) é um tipo de conectividade de rede fornecido pelo Azure Virtual Network para permitir que dispositivos individuais, como laptops ou dispositivos móveis, se conectem com segurança a redes virtuais do Azure.
+
+Em resumo, o VPN Point-to-Site no Azure é uma solução de conectividade que permite que dispositivos individuais se conectem com segurança a redes virtuais do Azure, garantindo a privacidade e a proteção dos dados durante a transferência.
+
+É uma opção eficaz para permitir que funcionários remotos ou dispositivos móveis acessem recursos na nuvem de maneira segura e controlada.
+
+
+
+VPN Site-to-Site (S2S) no Azure
+
+
+
+A VPN Site-to-Site (S2S) é um recurso oferecido pelo Azure que permite a criação de uma conexão segura entre a rede local de uma organização e uma rede virtual no Azure.
+
+Em resumo, a VPN Site-to-Site no Azure é uma solução que permite a conexão segura e permanente entre a rede local de uma organização e a rede virtual do Azure.
+
+Ela é usada para criar conectividade confiável, protegida e bidirecional entre os ambientes on-premises e na nuvem, permitindo a integração de recursos e serviços de maneira eficiente.
+
+
+
+Azure ExpressRoute
+
+
+
+Azure ExpressRoute é um serviço que oferece uma conexão de rede dedicada e privada entre a infraestrutura local de uma organização e a plataforma Azure.
+
+Em resumo, o Azure ExpressRoute é uma solução que oferece uma conexão privada, segura e de alto desempenho entre a rede local de uma organização e a plataforma Azure.
+
+É ideal para organizações que buscam maior controle, segurança e desempenho na comunicação entre ambientes on-premises e na nuvem, além de atender a requisitos rigorosos de conformidade e regulamentações.
+
+
+
+Azure Private Endpoint
+
+
+
+Azure Private Endpoint é um serviço que permite conectar recursos hospedados em uma rede virtual do Azure diretamente a um serviço PaaS (Plataforma como Serviço) ou a um serviço gerenciado do Azure, como o Armazenamento do Azure e o SQL Database, de forma segura e privada.
+
+Em resumo, o Azure Private Endpoint é uma solução que permite acessar serviços PaaS e serviços gerenciados do Azure de forma segura e privada, usando endereços IP privados dentro de uma rede virtual.
+
+Isso proporciona maior segurança, isolamento e controle sobre a comunicação entre os recursos hospedados na rede virtual e os serviços hospedados no Azure.

@@ -1,0 +1,66 @@
+Descrever o Gerenciamento de Custos
+Azure Tags
+
+
+As Azure Resource Tags (etiquetas de recursos do Azure) são metadados que podem ser atribuídos a recursos individuais no Microsoft Azure.
+
+Elas consistem em pares de chave-valor que ajudam na organização, classificação e gerenciamento dos recursos em uma assinatura do Azure.
+
+As tags permitem que os usuários adicionem informações personalizadas aos recursos para facilitar a identificação, rastreamento e categorização, independentemente da localização física ou do tipo de recurso.
+
+Em resumo, as Azure Resource Tags são uma ferramenta valiosa para organizar, classificar e gerenciar recursos no ambiente do Azure.
+
+Elas oferecem flexibilidade para adaptar a estrutura de tags de acordo com as necessidades específicas da organização e são essenciais para a aplicação de governança, controle de custos e rastreamento de recursos.
+
+
+
+Custos no Azure
+
+
+Custos no Azure referem-se aos gastos associados ao uso de serviços e recursos na plataforma de nuvem da Microsoft.
+
+Gerenciar e otimizar os custos é uma parte crucial da adoção da nuvem para garantir que as organizações alcancem eficiência financeira e maximizem o valor dos investimentos em nuvem.
+
+Em resumo, a gestão de custos no Azure é um aspecto crítico para garantir a eficiência financeira e o sucesso da adoção da nuvem.
+
+O uso de ferramentas, estratégias de otimização e o monitoramento constante dos gastos são fundamentais para controlar os custos e direcionar os investimentos de forma inteligente.
+
+
+
+Calculadora de Preços do Azure
+
+
+A Calculadora de Preços do Azure é uma ferramenta online fornecida pela Microsoft que permite aos usuários estimar os custos associados ao uso de serviços e recursos na plataforma Azure.
+
+Ela oferece uma maneira conveniente de planejar e avaliar os gastos antes de provisionar recursos específicos.
+
+Em resumo, a Calculadora de Preços do Azure é uma ferramenta essencial para planejar, estimar e entender os custos associados ao uso de serviços e recursos na plataforma Azure.
+
+Ela ajuda os usuários a tomar decisões mais informadas e a otimizar seus gastos na nuvem.
+
+
+
+Calculadora de Custo Total de Propriedade
+
+
+A Total Cost of Ownership (TCO) calculator, também conhecida como Calculadora de Custo Total de Propriedade, é uma ferramenta que auxilia as organizações a avaliar os custos totais associados à implementação e operação de soluções tecnológicas, incluindo infraestrutura local e na nuvem.
+
+Essa ferramenta permite comparar os custos de manter uma solução internamente com a migração para uma solução hospedada em nuvem, como o Microsoft Azure.
+
+Em resumo, a Total Cost of Ownership (TCO) calculator é uma ferramenta que ajuda as organizações a avaliar e comparar os custos totais de propriedade entre opções de infraestrutura local e soluções hospedadas em nuvem, como o Azure.
+
+Isso permite tomar decisões mais embasadas sobre investimentos em TI e planejamento financeiro.
+
+
+
+Calculadora de Custo Total de Propriedade
+
+
+A Total Cost of Ownership (TCO) calculator, também conhecida como Calculadora de Custo Total de Propriedade, é uma ferramenta que auxilia as organizações a avaliar os custos totais associados à implementação e operação de soluções tecnológicas, incluindo infraestrutura local e na nuvem.
+
+Essa ferramenta permite comparar os custos de manter uma solução internamente com a migração para uma solução hospedada em nuvem, como o Microsoft Azure.
+
+Em resumo, a Total Cost of Ownership (TCO) calculator é uma ferramenta que ajuda as organizações a avaliar e comparar os custos totais de propriedade entre opções de infraestrutura local e soluções hospedadas em nuvem, como o Azure.
+
+Isso permite tomar decisões mais embasadas sobre investimentos em TI e planejamento financeiro.
+
